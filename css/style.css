@@ -19,7 +19,7 @@
     --color-black: #000;
     --color-bg: #1f2641;
     --color-bg1: #2e3267;
-    --color-bg2: #424849;
+    --color-bg2:#424792;
 
     --container-width-lg: 76%;
     --container-width-md: 90%;
@@ -167,7 +167,7 @@ header {
 
 .categories {
     background: var(--color-bg1);
-    height: 29rem;
+    height: 35rem;
     box-shadow: 0 0 3rem rgba(0, 0, 0, 0.5);
 }
 
@@ -179,13 +179,14 @@ header {
 .categories_container {
     display: grid;
     grid-template-columns: 40% 60%;
+    gap: 4rem;
 
 }
 
-.categories_left {
+/* .categories_left {
     margin: 0 3rem 0 0;
 
-}
+} */
 
 .categories_left p {
     margin: 1rem 0 3rem;
@@ -195,7 +196,7 @@ header {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1.2rem;
-    margin-bottom: 4rem;
+    
 }
 
 .category {
@@ -203,6 +204,9 @@ header {
     padding: 2rem;
     border-radius: 2rem;
     transition: var(--transition);
+    /* height: 14rem;
+    width: 10rem; */
+    box-sizing: border-box;
 
 }
 
