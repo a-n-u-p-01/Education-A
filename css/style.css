@@ -168,6 +168,7 @@ header {
 .categories {
     background: var(--color-bg1);
     height: 35rem;
+    
     box-shadow: 0 0 3rem rgba(0, 0, 0, 0.5);
 }
 
@@ -178,15 +179,15 @@ header {
 
 .categories_container {
     display: grid;
-    grid-template-columns: 40% 60%;
-    gap: 4rem;
+    grid-template-columns: 30% 70%;
+    gap: 3rem;
 
 }
 
-/* .categories_left {
+.categories_left {
     margin: 0 3rem 0 0;
 
-} */
+}
 
 .categories_left p {
     margin: 1rem 0 3rem;
@@ -196,6 +197,7 @@ header {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1.2rem;
+    margin-right: 2rem;
     
 }
 
@@ -203,6 +205,7 @@ header {
     background: var(--color-bg2);
     padding: 2rem;
     border-radius: 2rem;
+  
     transition: var(--transition);
     /* height: 14rem;
     width: 10rem; */
@@ -249,6 +252,7 @@ header {
 
 .courses {
     margin-top: 10rem;
+
     box-shadow: 0 0 3rem rgba(0, 0, 0, 0.5);
 }
 
@@ -263,7 +267,6 @@ header {
     text-align: center;
     border: 1px solid transparent;
     box-shadow: 0 0 3rem rgba(0, 0, 0, 0.5);
-
 }
 
 .course:hover {
@@ -290,7 +293,7 @@ header {
 
 .faqs {
     background: var(--color-bg1);
-    box-shadow: inset 0 0 3rem rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 3rem rgba(0, 0, 0, 0.5);
 }
 
 .faqs_container {
@@ -346,6 +349,7 @@ header {
 
 .testimonial {
     padding-top: 2rem;
+    /* box-shadow: 0 0 3rem rgba(0, 0, 0, 0.5); */
 }
 
 .avatar {
@@ -355,6 +359,7 @@ header {
     overflow: hidden;
     margin: 0 auto 1rem;
     border: 1rem solid var(--color-bg1);
+    box-shadow: 0 0 3rem rgba(0, 0, 0, 0.5);
 }
 
 .testimonial_info {
